@@ -1,5 +1,5 @@
 <?php
-require_once '../config/session_config.php';
+require_once '../../config/session_config.php';
 require_once '../../config/database.php';
 
 checkUserSession('professeur');

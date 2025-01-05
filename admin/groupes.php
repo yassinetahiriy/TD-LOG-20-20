@@ -2,10 +2,7 @@
 session_start();
 require_once '../config/database.php';
 
-if (!isset($_SESSION['user_id']) || $_SESSION['user_type'] !== 'admin') {
-    header('Location: ../login.php');
-    exit();
-}
+
 
 try {
     // Récupérer tous les groupes TD
